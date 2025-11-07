@@ -1,0 +1,28 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pdb
+
+# --- Virtual envs ---
+.venv/
+venv/
+env/
+
+# --- OS/IDE ---
+.DS_Store
+.idea/
+.vscode/
+
+# --- Training artifacts & local data ---
+runs/
+data/
+wandb/
+*.log
+.cache/
+
+# --- Models (keep the folder but ignore heavy weights) ---
+models/*
+!models/.gitkeep
+
+# --- Notebooks checkpoints (if any) ---
+.ipynb_checkpoints/

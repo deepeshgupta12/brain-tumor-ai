@@ -1,0 +1,10 @@
+from pydantic import BaseModel
+from typing import Optional
+
+class PredictResponse(BaseModel):
+    has_tumor: bool
+    tumor_probability: float
+    classification: Optional[str] = None
+    segmentation_available: bool = False
+    tumor_volume_ml: Optional[float] = None
+    notes: str
