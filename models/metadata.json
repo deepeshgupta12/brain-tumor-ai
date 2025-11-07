@@ -1,0 +1,17 @@
+{
+  "arch": "resnet34",
+  "img_size": 224,
+  "class_names": [
+    "no_tumor",
+    "glioma",
+    "meningioma",
+    "pituitary"
+  ],
+  "train_counts": {
+    "0": 2996,
+    "1": 4721,
+    "2": 3603,
+    "3": 3992
+  },
+  "best_val_acc": 0.9963427380334621
+}
